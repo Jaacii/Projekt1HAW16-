@@ -1,1 +1,9 @@
-Bisher ist mir noch keine Projektdee eingefallen.
+Meine momentane Idee ist ein einfachegehaltenes Webspiel, 
+das eine Mischung aus einem Quiz und einem Reaktionsspiel zuprogrammieren.
+Gegebenenfalls würde ich die Anwendung dann noch um weitere Elemente erweitern. 
+Beispielsweise ein Merkspiel in dem Knöpfe leuchten und man die Reihenfolge wiedergeben soll.
+Das Ziel des Spiels ist es solange wie möglich richtig zu reagieren.
+
+Ich muss zugeben, meine Idee ist etwas chaotisch, aber meine Frage an sie: 
+Wäre so eine Anwendung möglich für Projekt 1?
+
