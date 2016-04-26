@@ -1,11 +1,29 @@
-Meine momentane Idee ist ein einfachegehaltenes Webspiel, 
-das eine Mischung aus einem Quiz und einem Reaktionsspiel zuprogrammieren.
-Gegebenenfalls würde ich die Anwendung dann noch um weitere Elemente erweitern. 
-Beispielsweise ein Merkspiel in dem Knöpfe leuchten und man die Reihenfolge wiedergeben soll.
-Das Ziel des Spiels ist es solange wie möglich richtig zu reagieren.
+﻿
 
-Ich muss zugeben, meine Idee ist etwas chaotisch, aber meine Frage an sie: 
+Meine momentane Idee ist ein einfachegehaltenes Webspiel,dass eine Mischung aus Quiz-/Rhythmus-
+und Reaktionsspiel werden soll, zu programmieren.
+
+Der User bekommt per Zufall bestimmte Aufgaben, z.b. Quizfragen, Rythmusaufgaben(drücke die Knöpfe in der Reihenfolge in der sie leuchten) oder Aufgaben wie "Drücke den roten Knopf in 5 Sekunden".
+Während er diese bearbeitet misst ein Timer die Zeit, die der User im Spiel verbringt. 
+Die "Überlebenszeit" wird nach dem verlieren des Users angezeigt und ist der "Score" des Spieles, woran der User sehen kann,
+ob er sich gut geschlagen hat.
+
+Da dieses Spielprinzip auf Dauer langweilig werden könnte, werden Extras eingebaut.
+Z.B.soll der User ein Hintergrundbild, sowie eine Hintergrundmusik wählen dürfen.
+
+Abgesehen davon soll das Programm später erweitert werden.
+Damit meine ich, dass man leicht neue Aufgabenstellungen hinzufügen kann, beispielsweise, dass der User 
+Antworten schreiben oder Lückentexte füllen soll. 
+Auf diese Weise sollen die Interaktionsmöglichkeiten auch nach Belieben erhöht werden.
+
+
+
+
 Wäre so eine Anwendung möglich für Projekt 1?
+
+
+
+
 
 == Feedback von Jonathan ==
 Finde die Idee gut. Sollte auch nicht zu viel sein. Vielleicht könnte man noch Reaktionszeiten/Punkte bei unterschiedlichen Aufgaben speichern und vergleichbar machen um bei dem Projekt noch MySQL nutzen zu können.
