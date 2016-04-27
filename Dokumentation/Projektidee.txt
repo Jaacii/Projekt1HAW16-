@@ -1,9 +1,69 @@
-Meine momentane Idee ist ein einfachegehaltenes Webspiel, 
-das eine Mischung aus einem Quiz und einem Reaktionsspiel zuprogrammieren.
-Gegebenenfalls w�rde ich die Anwendung dann noch um weitere Elemente erweitern. 
-Beispielsweise ein Merkspiel in dem Kn�pfe leuchten und man die Reihenfolge wiedergeben soll.
-Das Ziel des Spiels ist es solange wie m�glich richtig zu reagieren.
 
-Ich muss zugeben, meine Idee ist etwas chaotisch, aber meine Frage an sie: 
-W�re so eine Anwendung m�glich f�r Projekt 1?
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Meine momentane Idee ist ein einfachegehaltenes Webspiel,dass eine Mischung aus Quiz-/Rhythmus-
+und Reaktionsspiel werden soll, zu programmieren.
+
+Der User bekommt per Zufall bestimmte Aufgaben, z.b. Quizfragen, Rythmusaufgaben(drücke die Knöpfe in der Reihenfolge in der sie leuchten) oder Aufgaben wie "Drücke den roten Knopf in 5 Sekunden".
+Während er diese bearbeitet misst ein Timer die Zeit, die der User im Spiel verbringt. 
+Die "Überlebenszeit" wird nach dem verlieren des Users angezeigt und ist der "Score" des Spieles, woran der User sehen kann,
+ob er sich gut geschlagen hat.
+
+Da dieses Spielprinzip auf Dauer langweilig werden könnte, werden Extras eingebaut.
+Z.B.soll der User ein Hintergrundbild, sowie eine Hintergrundmusik wählen dürfen.
+
+Abgesehen davon soll das Programm später erweitert werden.
+Damit meine ich, dass man leicht neue Aufgabenstellungen hinzufügen kann, beispielsweise, dass der User 
+Antworten schreiben oder Lückentexte füllen soll. 
+Auf diese Weise sollen die Interaktionsmöglichkeiten auch nach Belieben erhöht werden.
+
+
+
+
+Wäre so eine Anwendung möglich für Projekt 1?
+
+
+
+
+
+== Feedback von Jonathan ==
+Finde die Idee gut. Sollte auch nicht zu viel sein. Vielleicht könnte man noch Reaktionszeiten/Punkte bei unterschiedlichen Aufgaben speichern und vergleichbar machen um bei dem Projekt noch MySQL nutzen zu können.
+
+=== Feedback Alpers, 2016-04-27 ===
+
+In meinem letzten Feebback hatte ich Ihnen ein Spiel genannt, dass Sie umsetzen sollten. Anstatt darauf zu reagieren, haben Sie das Feedback und die gesamte Aufgabenstellung gelöscht. Hier können Sie den ursprünglichen Zustand einsehen: https://github.com/Jaacii/Projekt1HAW16-/commit/aeeecc3a68b01282ec3c63e5778ef08be5f0e578
+
+Ein zentrales Element von Projektarbeit ist der kontinuierliche Austausch. Sie hätten micht beispielsweise fragen können, ob Ihre alternative Idee etwas gutes ist. Aber das haben Sie leider nicht getan. Vielleicht haben Sie sich auch nicht in Git eingearbeitet und deshalb nicht gesehen, dass ich Ihnen ein Feedback bereit gestellt hatte, aber was auch immer der Grund ist, bevor Sie irgend etwas weiteres bearbeiten, nehmen Sie sich zuerst mein Feedback, lesen es durch und arbeiten dann entsprechend weiter (bzw. sprechen mich auch ggf. an).
+
+=== Feedback Ende ===
+>>>>>>> 88f445406b1128bed4745fedff339164336f1949
