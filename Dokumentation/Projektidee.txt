@@ -27,3 +27,11 @@ Wäre so eine Anwendung möglich für Projekt 1?
 
 == Feedback von Jonathan ==
 Finde die Idee gut. Sollte auch nicht zu viel sein. Vielleicht könnte man noch Reaktionszeiten/Punkte bei unterschiedlichen Aufgaben speichern und vergleichbar machen um bei dem Projekt noch MySQL nutzen zu können.
+
+=== Feedback Alpers, 2016-04-27 ===
+
+In meinem letzten Feebback hatte ich Ihnen ein Spiel genannt, dass Sie umsetzen sollten. Anstatt darauf zu reagieren, haben Sie das Feedback und die gesamte Aufgabenstellung gelöscht. Hier können Sie den ursprünglichen Zustand einsehen: https://github.com/Jaacii/Projekt1HAW16-/commit/aeeecc3a68b01282ec3c63e5778ef08be5f0e578
+
+Ein zentrales Element von Projektarbeit ist der kontinuierliche Austausch. Sie hätten micht beispielsweise fragen können, ob Ihre alternative Idee etwas gutes ist. Aber das haben Sie leider nicht getan. Vielleicht haben Sie sich auch nicht in Git eingearbeitet und deshalb nicht gesehen, dass ich Ihnen ein Feedback bereit gestellt hatte, aber was auch immer der Grund ist, bevor Sie irgend etwas weiteres bearbeiten, nehmen Sie sich zuerst mein Feedback, lesen es durch und arbeiten dann entsprechend weiter (bzw. sprechen mich auch ggf. an).
+
+=== Feedback Ende ===
