@@ -231,7 +231,7 @@ Andere Spielfiguren des Spielers, die auf dem selben Feld standen werden auf uml
 Die Stadt wird mit einem Stadtmarker belegt und so markiert.
 Die Stadt darf direkt in der ersten Runde schon Handeln.
 
-//Stadtsform    //Handelsanzeige  //Pionier handlespunkte erbeuten //unverbindliche zusagen? //spielfiguren
+ //Handelsanzeige  //Pionier handlespunkte erbeuten //unverbindliche zusagen //spielfiguren
 
 
 2. ==Handelsphase==
@@ -252,9 +252,31 @@ Die Stadt darf direkt in der ersten Runde schon Handeln.
 			- Kulturereigniskarten
 			- Unverbindlicher Zusagen 
 
-3. ==Städteverwaltung==
+3. ==Städteverwaltungphase==
+	In dieser Phase kann man für jede Stadt 1 von 3 Optionen wählen. Diese wären:
 
-	
+	A. Eine Figur, eine Einheit, ein Gebäude oder ein Weltwunder produzieren.
+		Pro Stadt kann genau eine Produktion stattfinden. Die Produktion wird mit Produktionspunkten bezahlt.Eine Stadt kann Produktionspunkte anderer Städte nicht nutzen.
+		Überzählige Produktionspunkte gehen verloren.Falls ein Spieler nicht genug Produktionspunkte hat, kann er je 3 Handelspunkte für einen zusätzlichen Produktionspunkt eintauschen.
+			(Mehr dazu beim Stichtpunkt "Figuren" und "Gebäude")
+		
+	B. Sich den Künsten widmen.
+		Wer eine Stadt sich den Künsten widmen lässt erhält einen Kulturmarker und für jedes Kultursymbol bei der Stadt je einen weiteren Kulturmarker.
+		(Pioniere, blockaden)	
+		Die Kulturmarker erhöhen den kulturellen Einfluss eines Volkes. Dies wird über die Kulturskala dargestellt, welche durch das Bezahlen mit Kulturmarkern erhöht wird.
+		Die Kosten um die seine Position auf der Skala zu erhöhen wird höher, je höher man in der Skala steht. Am oberen Ende kostet das Erhöhen des Kulturstufenmarkers Kultur- und Handelspunkte.
+		Ein Spieler kann in der Kulturskala pro Runde soweit aufsteigen, wie er es sich leisten kann.
+			(Mehr dazu beim Stichtpunkt "Weiteres".)
+		
+
+	C. Einen Rohstoff abbauen.
+		Jede Stadt kann eine Art Rohstoff abbauen, der in ihrem Randgebiet liegt(Also z.b. nur Eisen ODER Seide).
+		Rohstoffe werden benötigt um Gebäude/Einheiten zu produzieren oder um rohstoffabhängige Fähigkeiten zu nutzen.
+		
+
+			
+
+
 
 
 
@@ -282,16 +304,66 @@ Die Stadt darf direkt in der ersten Runde schon Handeln.
 		Wenn der Spieler gegen die Barbaren verliert, sind seine am Kampfbeteiltigten Krieger eliminiert. 
 
 
-5. ==Forschen==
+5. ==Forschungsphase==
+In dieser Phase kann jeder Spieler maximal eine Technologie erforschen.
+Eine Technologie kann ein bis drei neue Fähigkeiten oder Vorteile für den Spieler bringen. 
+Gekauft werden Technologien mit Handelspunkten. Außerdem muss ein Kasten in seiner Technologiepyramide vorhanden sein. 
 
+Die Kosten einer Technologie ist abhängig von ihrer Stufe.
+Für eine Technologie der Stufe I muss man 6 Handelspunkte zahlen.Danach ist jede weitere Stufe um 5 Handelspunkte teurer.
+Wenn eine Stufe erforscht wird, und der Spieler hat mehr Handelspunkte als er zahlen muss, verschwinden diese ebenfalls, außer er besitzt eine Münze.
+Pro Münze in Besitz bleibt ein überschüssiger Handelspunkt dabei erhalten
 
+Die Technologiepyramide ist ein Diagramm, dass verdeutlicht wie viele Technologien ein Spieler einer Stufe er erwerben kann.
+Er kann 5x eine Stufe I- , 4x eine Stufe II-, 3x eine Stufe III-, 2x eine Stufe IV- und 1x eine Stufe V-Technologie kaufen. 
+
+Jedes Volk besitzt eine Anfangstechnologie, die es sofort besitzt.
+
+Die Technologiekarten können z.b. Regierungsformen freischalten, Einheiten aufrüsten, Gebäude verbessern oder lassen Einheiten Wasserfelder überqueren. 
+
+Eine Sonderform der Technologiekarten sind Karten mit Rohstofffähigkeiten. Diese werden nur genutzt, wenn der Spieler in der Runde bestimmte Rohstoffe dafür zahlt.
 
 
 ====Kampf=====
 
 
-===Weiteres=====
 
+
+
+
+
+
+===Weiteres=====
+Kulturskala: 	Die Kulturskala symbolisiert den kulturellen Einfluss des Volkes und wird mit Kulturmarkern(-punkten) erhöht. 
+		In der Skala gibt es drei Arten von Bereichen, die Bestimmtes auslösen.
+	Kulturereignisfelder:		Wer auf so einem Feld geht, zieht eine Kulturkarte (Kartenlimit 2, außer Technologien erhöhen es.).
+					(mehr dazu bei "Kulturereigniskarten")
+	
+	Große Persönlichkeitenfelder:	Wer seinen Kulturstufenmarker auf dieses Feld legt, bekommt einen zufääligen Marker einen großen Persönlichkeit, den er wann immer er will, in eine Stadt bringen kann.
+	
+	Kultursieg:			Wer seinen Kulturstufenmarker auf dieses Feld legt, hat das Spiel gewonnen.
+
+
+Kulturereigniskarten:	Jede Karte besitzt einen Namen, einen Zeitpunkt, an dem sie benutzt werden kann, und einen Effekt, den sie auslöst. Die Kulturereigniskarten werden verdeckt gehalten.
+			Das Kartenlimit bei diesen Karten beträgt 2, außer es wird durch Technologien erhöht.
+		
+Große Persönlichkeiten:	Große Persönlichkeiten sind Marker, die bestimmte eigene Effekte auf Städte haben.
+			Falls eine Große Persönlichkeit auf ein Gebäude gesetzt wird, ersetzt es Dieses.
+			Sollte eine Große Persönlichkeit durch ein Gebäude ersetzt werden, behält der Spieler die Große Persönlichkeit und kann sich nach zeitlichen Belieben auf eine andere Stadt setzen.
+			Große Persönlichkeiten haben keinen Effekt, solange sie nicht auf dem Spielplan(Karte) liegen.
+
+Figuren:
+	Pioniere
+
+	Armeefiguren
+
+	Barbaren
+
+Gebäude:
+	
+Staatsform:
+
+Anzeigen:
 
 
 
