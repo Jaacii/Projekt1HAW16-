@@ -1,4 +1,197 @@
-﻿
+======================================
+=== Projektidee Jaacii, 2016-05-08 ===
+======================================
+
+Meine Projektidee ist die Umsetzung des Brettspiels "Civilisation".
+
+=======Kurze Zusammenfassung=======
+
+"Civilisation" ist ein strategisches Brettspiel, indem der Spieler ein Volk wählt (eine Zivilisation) 
+und mit dem Volk Städte errichtet. In den Randgebieten der Städte erwirtschaftet er Rohstoffe, welche er 
+nutzen kann um Gebäude zu errichten und Einheiten/Figuren zu generieren. 
+
+Das Spiel kann mit 2 bis 4 Spielern gespielt werden. 
+Alle Spieler konkurieren gegeneinander um die Fortschritte in ihren Zivilisationen. 
+Mit dem Begriff Fortschritt sind die Bereiche "Technologie/Forschung", "Kultur", "Wirtschaft" und "Millitär" gemeint.
+Wenn ein Spieler einen dieser Bereiche quasi komplett ausgebaut hat, hat er gewonnen.
+
+Quasi schreibe ich, weil in einige Bereiche Ausnahmen sind.
+Z.b. gilt der Sieg durch Millitär erst, wenn man die Hauptstadt eines anderen Spielers erobert hat mit dem Millitär.
+
+Genaueres steht in der ausführlichen Zusammenfassung.
+
+					==Userinteraktionen==
+					-Auswählen [Völker, Bewegungsziel; Handlung der Figuren etc.]
+					-UserID bestimmen [Namen wählen]
+					-Kommunizieren mit anderen Spielern [Markt; Chat]
+					-(strategisch die nächsten Ereignisse planen [Wie auf welche Art man siegen möchte; was man tun wird])
+
+=======Ausführliche Zusammenfassung====
+
+==Vor Spielbeginn==
+Zum Spielbeginn einigen sich die Spieler entweder auf die eigenen Völker oder lassen es per Zufall bestimmen.
+Danach bekommt jeder einen Zivilisationsbogen, einen Kulturstufenmarker und einen Heimatspielplanteil.
+
+Jedes dieser Völker besitzt eine eigene individuelle Kultur, welche mittels des Zivilisationsbogens und dem Kulturstufenmarker dargestellt wird.
+Die Kulturstufen lassen sich im Spielverlauf erhöhen und bringen dem Spieler Vorteile. [Dazu später mehr]
+Der Heimatspielplanteil bestimmt den Kartenabschnitt, wo der jeweilige Spieler das Spiel beginnt.
+
+==Allgemeines==
+Infantrie, Kavallerie- und Artilleriestapel //
+
+==Spielablauf==
+Während jeder Runde besitzen die Spieler mehrere mögliche Interaktionsmöglichkeiten, die als einzelne Phasen gegliedert sind.
+Sie können:
+1. "Rundenbeginn": Neue Städte gründen (wenn das Spielfeld es erlaubt(nicht erlaubt auf z.B. Wasser))
+2. "Handelsphase": Handeln mit anderen Spielern (wenn sie Handelspunkte besitzen)
+3.  "Städteverwaltung": Eine Stadtaktion pro Stadt ausführen (ENDWEDER: Eine Figur,eine Einheit, ein Gebäude,ein Weltwunder produzieren  oder  einen Rohstoff abbauen  oder  sich den Künsten widmen)
+4. "Bewegungsphase"
+5.  Forschen
+
+1. ==Rundenbeginn - Städte gründen == 
+	Zu Beginn darf der Spieler eine neue Stadt gründen. 
+	Dafür muss der Spieler mit einer Pionierfigur auf dem Feld sein, wo seine Stadt entstehen soll. Im Austausch für die neue Stadt verschwindet die Pionierfigur.
+	Dies geht aber nur wenn folgende Bedingungen auf das Feld zutreffen:
+			- Auf einem Feld liegen, die kein Wasserfeld ist.
+			- Muss um 8 offene umliegende Felder besitzen (Also z.b. nicht am Spielfeldrand).
+			- Darf nicht direkt an Hütten oder Barbarendörfern anliegen.
+			- Das Feld darf nicht an eine gegnerische Figur angrenzen.
+			- Das Feld muss mindestens 3 Felder Abstand zu jeder anderen Stadt haben.
+
+Das Mittelfeld wird das Stadtzentrum bilden und die 8 umliegenden Felder die Randbezirke.
+Die Randbezirke sind in der Lage Rohstoffe zu produzieren (3.).
+Andere Spielfiguren des Spielers, die auf dem selben Feld standen werden auf umliegende Felder verschoben, wen die Stadt entsteht.
+Die Stadt wird mit einem Stadtmarker belegt und so markiert.
+Die Stadt darf direkt in der ersten Runde schon Handeln.
+
+ //Handelsanzeige  //Pionier handlespunkte erbeuten //unverbindliche zusagen //spielfiguren
+
+2. ==Handelsphase==
+	In der handelsphase dürfen die Spieler handeln und Handelspunkte erhalten.
+	In der Handelsphase erhält der Spieler für jedes Handelssymbol in all seinen Städten Handelspunkte.
+	In den Zivilisationsbogen befindet sich eine Handelsscheibe, deren Anzeige nun um den Betrag der Handelspunkte erhöht wird.
+	Die Handelspunkte können nun für den Handel verbraucht werden. Falls nicht, bleiben diese Vorhanden und können in den nächsten Runden genutzt werden.
+	In der nächsten Runde werden erneut neue Handelspunkte hinzugerechnet.
+	Ein Spieler kann maximal 27 Handelspunkte besitzen.
+  
+
+	Wenn gegnerische Figuren auf den Feldern mit den Handelssymbolen stehen, so bringen diese keine Handelspunkte ein. 
+
+	Folgenes kann gehandelt werden:
+			- Handelspunkte
+			- Unverbrauchte Kulturmarker
+			- Rohstoffmarker
+			- Kulturereigniskarten
+			- Unverbindlicher Zusagen 
+
+3. ==Städteverwaltungphase==
+	In dieser Phase kann man für jede Stadt 1 von 3 Optionen wählen. Diese wären:
+
+	A. Eine Figur, eine Einheit, ein Gebäude oder ein Weltwunder produzieren.
+		Pro Stadt kann genau eine Produktion stattfinden. Die Produktion wird mit Produktionspunkten bezahlt.Eine Stadt kann Produktionspunkte anderer Städte nicht nutzen.
+		Überzählige Produktionspunkte gehen verloren.Falls ein Spieler nicht genug Produktionspunkte hat, kann er je 3 Handelspunkte für einen zusätzlichen Produktionspunkt eintauschen.
+			(Mehr dazu beim Stichtpunkt "Figuren" und "Gebäude")
+		
+	B. Sich den Künsten widmen.
+		Wer eine Stadt sich den Künsten widmen lässt erhält einen Kulturmarker und für jedes Kultursymbol bei der Stadt je einen weiteren Kulturmarker.
+		(Pioniere, blockaden)	
+		Die Kulturmarker erhöhen den kulturellen Einfluss eines Volkes. Dies wird über die Kulturskala dargestellt, welche durch das Bezahlen mit Kulturmarkern erhöht wird.
+		Die Kosten um die seine Position auf der Skala zu erhöhen wird höher, je höher man in der Skala steht. Am oberen Ende kostet das Erhöhen des Kulturstufenmarkers Kultur- und Handelspunkte.
+		Ein Spieler kann in der Kulturskala pro Runde soweit aufsteigen, wie er es sich leisten kann.
+			(Mehr dazu beim Stichtpunkt "Weiteres".)
+		
+
+	C. Einen Rohstoff abbauen.
+		Jede Stadt kann eine Art Rohstoff abbauen, der in ihrem Randgebiet liegt(Also z.b. nur Eisen ODER Seide).
+		Rohstoffe werden benötigt um Gebäude/Einheiten zu produzieren oder um rohstoffabhängige Fähigkeiten zu nutzen.
+
+4. ==Bewegungsphase==
+	Der Spieler darf jede seiner Einheiten in der Bewegungsphase bewegen. Die Bewegungsweite wird dadurch bestimmt, welche Technologien der Spieler besitzt. (Z.b. Reiterei. (Zu Beginn 2 Felder)
+	Die Bewegungen dürfen nicht diagonal geschehen und der Spieler muss eine Figur zuende bewegt haben bevor er die Nächste bewegt.
+	Mehrere Figuren eines Spielers können als Gruppe bewegt werden(nicht zwanghaft), wenn sie auf einem Feld stehen (So erhalten sie im Kampf mehr Stärke und können den in der Gruppe befindenen Pionier vor Gegnern schützen.
+	Eine Einschrankung für das Gruppieren stellt das Figurenlimit der Zivilisation auf einem Feld da(Zu beginn 2). Das Limit kann durch Technologienerwerb vergrößert werden.
+	Figuren können sich nicht über Wasser bewegen, außer der Spieler besitzt eine Technologie, die es erlaubt.
+	Unerforschte Spielkartenbereiche können nicht betreten werden, außer sie werden aufgedeckt.
+	Pioniere können Felder auf denen Gegner stehen nicht betreten, Krieger allerdings schon.
+
+		==Felder aufdecken==
+		Wenn der Spieler ein Feld der Bewegungsreichweite einer Figur für eine Runde opfert, kann er so neue Felder aufdecken. (Die Figur bleibt auf einem Feld stehen und ein Angrenzendes wird aufgedeckt.
+		Es kann allerdings sein, dass sich auf dem aufgedeckten Feld ein Barbarendorf oder eine Hütte befindet.
+		Die Aufdeckung des Feldes gilt nur für den jeweiligen Spieler. Sprich: Der Spieler sieht, was drauf ist und alle Anderen nicht.
+	
+		Pioniere können Hütten und Barbarendörfer nicht betreten. Das können nur Krieger-Figuren. 
+		Wenn Krieger auf das Feld kommen wird ihre Bewegung dort sofort beenden und sie erkunden nun das Dorf oder die Hütte. 
+
+		In Hütten erhält der Spieler per Zufall einen Rohstoff, mit dem er den Bau von Häusern oder Einheiten bezahlen kann. (Danach wird der Rohstoff entfernt.)
+		Beim Betreten von Barbarendörfern erscheinen auf dem Feld 3 Barbaren, die von dem Spieler, der nach dem jetzigen dran kommt gesteuert werden darf.
+ 		Die Art der Barbaren (Kavallarie etc.) wird zufällig entschieden. Alle Barbaren haben Rank I [Mehr dazu im Abschnitt "Kampf"]. (Im Brettspiel durch das Ziehen von den Kavallerie-, Artillerie- oder Infantriestapel.)
+		Wenn der Spieler die Barbaren besiegt hat, bekommt er per Zufall entweder Rohstoffe oder einen Marker für berühmte Persönlichkeiten. [Mehr dazu im Abschnitt Allgemeines]
+		Wenn der Spieler gegen die Barbaren verliert, sind seine am Kampfbeteiltigten Krieger eliminiert. 
+
+
+5. ==Forschungsphase==
+In dieser Phase kann jeder Spieler maximal eine Technologie erforschen.
+Eine Technologie kann ein bis drei neue Fähigkeiten oder Vorteile für den Spieler bringen. 
+Gekauft werden Technologien mit Handelspunkten. Außerdem muss ein Kasten in seiner Technologiepyramide vorhanden sein. 
+
+Die Kosten einer Technologie ist abhängig von ihrer Stufe.
+Für eine Technologie der Stufe I muss man 6 Handelspunkte zahlen.Danach ist jede weitere Stufe um 5 Handelspunkte teurer.
+Wenn eine Stufe erforscht wird, und der Spieler hat mehr Handelspunkte als er zahlen muss, verschwinden diese ebenfalls, außer er besitzt eine Münze.
+Pro Münze in Besitz bleibt ein überschüssiger Handelspunkt dabei erhalten
+
+Die Technologiepyramide ist ein Diagramm, dass verdeutlicht wie viele Technologien ein Spieler einer Stufe er erwerben kann.
+Er kann 5x eine Stufe I- , 4x eine Stufe II-, 3x eine Stufe III-, 2x eine Stufe IV- und 1x eine Stufe V-Technologie kaufen. 
+
+Jedes Volk besitzt eine Anfangstechnologie, die es sofort besitzt.
+
+Die Technologiekarten können z.b. Regierungsformen freischalten, Einheiten aufrüsten, Gebäude verbessern oder lassen Einheiten Wasserfelder überqueren. 
+
+Eine Sonderform der Technologiekarten sind Karten mit Rohstofffähigkeiten. Diese werden nur genutzt, wenn der Spieler in der Runde bestimmte Rohstoffe dafür zahlt.
+
+====Kampf=====
+
+===Weiteres=====
+Kulturskala: 	Die Kulturskala symbolisiert den kulturellen Einfluss des Volkes und wird mit Kulturmarkern(-punkten) erhöht. 
+		In der Skala gibt es drei Arten von Bereichen, die Bestimmtes auslösen.
+	Kulturereignisfelder:		Wer auf so einem Feld geht, zieht eine Kulturkarte (Kartenlimit 2, außer Technologien erhöhen es.).
+					(mehr dazu bei "Kulturereigniskarten")
+	
+	Große Persönlichkeitenfelder:	Wer seinen Kulturstufenmarker auf dieses Feld legt, bekommt einen zufääligen Marker einen großen Persönlichkeit, den er wann immer er will, in eine Stadt bringen kann.
+	
+	Kultursieg:			Wer seinen Kulturstufenmarker auf dieses Feld legt, hat das Spiel gewonnen.
+
+
+Kulturereigniskarten:	Jede Karte besitzt einen Namen, einen Zeitpunkt, an dem sie benutzt werden kann, und einen Effekt, den sie auslöst. Die Kulturereigniskarten werden verdeckt gehalten.
+			Das Kartenlimit bei diesen Karten beträgt 2, außer es wird durch Technologien erhöht.
+		
+Große Persönlichkeiten:	Große Persönlichkeiten sind Marker, die bestimmte eigene Effekte auf Städte haben.
+			Falls eine Große Persönlichkeit auf ein Gebäude gesetzt wird, ersetzt es Dieses.
+			Sollte eine Große Persönlichkeit durch ein Gebäude ersetzt werden, behält der Spieler die Große Persönlichkeit und kann sich nach zeitlichen Belieben auf eine andere Stadt setzen.
+			Große Persönlichkeiten haben keinen Effekt, solange sie nicht auf dem Spielplan(Karte) liegen.
+
+Figuren:
+	Pioniere
+
+	Armeefiguren
+
+	Barbaren
+
+Gebäude:
+	
+Staatsform:
+
+Anzeigen:
+
+====Siegesmöglichkeiten====
+Um das Spiel zu gewinnen gibt es folgende Möglichkeiten:
+Technologiesieg -> ein Spieler erforscht die "Raumfahrt - Technologie Stufe V".
+Kultursieg 	-> ein Spieler erreicht das letzte Feld der Kulturskala.
+Wirtschaftssieg	-> ein Spieler erreicht 15 Münzen.
+Millitärsieg 	-> ein Spieler erobert die Hauptstadt einen Mitspielers.
+
+=======================================
+=== Projektidee Jaacii, 2016-05-... ===
+=======================================
 
 Meine momentane Idee ist ein einfachegehaltenes Webspiel,dass eine Mischung aus Quiz-/Rhythmus-
 und Reaktionsspiel werden soll, zu programmieren.
@@ -16,22 +209,66 @@ Damit meine ich, dass man leicht neue Aufgabenstellungen hinzufügen kann, beisp
 Antworten schreiben oder Lückentexte füllen soll. 
 Auf diese Weise sollen die Interaktionsmöglichkeiten auch nach Belieben erhöht werden.
 
-
-
-
 Wäre so eine Anwendung möglich für Projekt 1?
 
-
-
-
-
-== Feedback von Jonathan ==
+=============================
+=== Feedback von Jonathan ===
+=============================
 Finde die Idee gut. Sollte auch nicht zu viel sein. Vielleicht könnte man noch Reaktionszeiten/Punkte bei unterschiedlichen Aufgaben speichern und vergleichbar machen um bei dem Projekt noch MySQL nutzen zu können.
 
+======================================
+=== Projektidee Jaacii, 2016-04-05 ===
+======================================
+
+Bisher ist mir noch keine Projektdee eingefallen.
+
+==================================
+=== Feedback Alper, 2016-04-06 ===
+==================================
+
+Kein Problem, dann setzen Sie das Brettspiel Civilization um.
+
+===============================================================
+=== Zweiter Aufgabenblock (identisch für alle Studierenden) ===
+===============================================================
+(gelöscht, da im Lernraum für alle einsehbar)
+
+===================================
 === Feedback Alpers, 2016-04-27 ===
+===================================
 
 In meinem letzten Feebback hatte ich Ihnen ein Spiel genannt, dass Sie umsetzen sollten. Anstatt darauf zu reagieren, haben Sie das Feedback und die gesamte Aufgabenstellung gelöscht. Hier können Sie den ursprünglichen Zustand einsehen: https://github.com/Jaacii/Projekt1HAW16-/commit/aeeecc3a68b01282ec3c63e5778ef08be5f0e578
 
 Ein zentrales Element von Projektarbeit ist der kontinuierliche Austausch. Sie hätten micht beispielsweise fragen können, ob Ihre alternative Idee etwas gutes ist. Aber das haben Sie leider nicht getan. Vielleicht haben Sie sich auch nicht in Git eingearbeitet und deshalb nicht gesehen, dass ich Ihnen ein Feedback bereit gestellt hatte, aber was auch immer der Grund ist, bevor Sie irgend etwas weiteres bearbeiten, nehmen Sie sich zuerst mein Feedback, lesen es durch und arbeiten dann entsprechend weiter (bzw. sprechen mich auch ggf. an).
 
-=== Feedback Ende ===
+==================================
+=== Kommentar Jaacii, 8.5.2016 ===
+==================================
+
+Da ich trotz alledem die strukt.html erstellt hatte und die anderen Repositories kommentiert habe, sollten sie erkennen, dass ich ihr früheres Feedback gesehen und bearbeitet habe. 
+Sie schlugen das Brettspiel "Civilisation" vor. Allerdings habe ich aus ihrem Feedback nicht lesen können, dass dieser Vorschlag nun Zwang ist (scheinbar ging es vielen Anderen aus dem Kurs auch so) und habe daher selbst eine eigene Projektidee entwickelt. 
+
+Im Folgenen habe ich ihre Projektidee umgesetzt.
+Im Moment ist die ausführliche Zusammenfassung noch nicht komplett. Ich werde sie in nächster Zeit ergänzen und habe diesen Teil so schon hochgeladen, damit sie sehen, dass ich etwas getan habe.
+
+Ich habe außerdem das Spiel einmal kurz zusammengefasst, da die gesamten Spielregeln eine PDF von 32 Seiten umfassen und eine so lange Beschreibung für die meisten Menschen abschreckend ist.
+
+===================================
+=== Feedback Alpers, 2016-06-01 ===
+===================================
+
+Es ging bei dem Vorschlag nicht um Zwang, sondern darum, dass Sie so überhaupt eine Basis für ein eigenes Projekt haben, das eine webbasierte und interaktive Anwendung ist. Schließlich wollen Sie ja den Leistungsnachweis nicht irgendwann, sondern in absehbarer Zeit erhalten und das geht dann am besten, wenn Sie eine Grundlage haben, die alles nötige mitbringt.
+
+Hier ein Absatz zum Thema Interaktion: Die Schaltflächen, die NutzerInnen verwenden können sind nur die bedienbaren Elemente eines Computerprogramms. Interaktion ist wesentlich mehr als das. Denken Sie beispielsweise daran, wie eine Pokerrunde gespielt wird. Dabei spielt es nämlich eine Rolle, welche Karten abgeworfen wurden. Die Spieler (und bei einem Computerprogramm der Computer) analysieren kontinuierlich das Verhalten der anderen Spieler und ändern Ihren Spielstil in Abhängigkeit davon. Und genau das müssen Sie auch als Teil Ihres Projekts ausarbeiten und in die Projektbeschreibung integrieren.
+
+Da Sie hier ansprechen, dass Sie den Eindruck haben, dass viele die Idee hinter dem Gegenvorschlag bzw. der Vorgabe missverstanden haben: Das führt direkt zueinem der wichtigsten Ziele dieses Kurses: Sie müssen mit dem Auftraggeber kontinuierlich im Gespräch bleiben und sicher stellen, dass keine Missverständnisse das Projekt torpedieren. Denn leider ist es bei Projekten der Normalfall, dass es zu Missverständnissen kommt, die nicht rechtzeitig geklärt werden. Missverständnisse basieren zum überwiegenden Teil auf mangelnder Kommunikation. Was das in der Praxis bedeutet, können Sie bei Projekten wie dem Flughafen BER, Stuttgard 21, der Elbphilharmonie und vielen anderen Beispielen sehen.
+
+Da es in meinem Feedback nicht eindeutig stand, will ich hier noch deutlich schreiben, dass es nicht darum geht, dass Sie das Spiel vollständig als Computerspiel umsetzen, sondern dass Sie es als Basis verwenden sollten. Sie können also Regeln und Strukturen nach eigenen Vorstellungen anpassen, solange eine webbasierte Anwendung dabei herauskommt, die wie beschrieben interaktiv ist.
+
+Ihre Beschreibung ist wesentlich umfangreicher geworden, als das für dieses Projekt nötig gewesen wäre. Gleichzeitig ist sie knapp und präzise, sodass sie weitgehend eine solide Basis für ein Projekt darstellt. Wenn Sie in einer Gruppe mit fünf Studierenden in einem höheren Semester wären, dann wäre das ein ambitioniertes Projekt B oder C. Deshalb werde ich diesen Teil mit 20 Punkten werten. (Wobei ich etwas irritiert war, als ich las, dass die Spielregeln 32 Seiten umfassen. Es wirkt auf mich so, als wenn da jemand eine Brettspieladaption des ersten Civilization-Computerspiels erstellt hätte.)
+
+Momentan haben Sie hier noch nicht herausgearbeitet, wie Sie konkret die Webbasierung in den Spielablauf integrieren wollen und wie die Interaktionen zwischen Mensch und Computer (Stichwort: Computergesteuerter Gegner) stattfinden sollen. Arbeiten Sie hier noch kurz aus, wie das passieren soll. Arbeiten Sie ansonsten erstmal mit der strukt.html weiter und passen Sie die Beschreibung nur dann an, wenn sich das aus der Projektarbeit ergibt.
+
+Damit Sie sich nicht in zu vielen Details verzetteln müssen Sie jetzt prüfen, was Sie als erstes umsetzen wollen. Machen Sie damit in der strukt.html weiter.
+
+Wichtig: Das folgende mag überflüssig sein, aber es ist ein zentraler Dreh- und Angelpunkt bei professioneller Softwareentwicklung und momentan wirkt es auf mich so, als wenn Sie da noch Nachholbedarf haben: Sie müssen wirklich mit Git arbeiten. Wenn Sie bislang Dateien aus GitHub löschen und dann den jeweils neuesten Stand dorthin hochladen, dann haben Sie an der Stelle Nachholbedarf. Wenn das nicht der Fall ist, dann ignorieren Sie diesen Absatz bitte.
